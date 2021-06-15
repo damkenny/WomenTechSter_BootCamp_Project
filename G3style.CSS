@@ -1,0 +1,306 @@
+/* index.html page */
+/* header */
+body {
+	background-color: rgba(248, 93, 189, 0.185);
+   
+
+}
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    justify-content: space-evenly;
+    font-size: 0.7em;
+    margin-bottom: 1px;
+    
+
+}
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0 ;
+    
+    }
+}
+.main-nav, .logo {
+    align-content: ;
+}
+.logo {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+
+}
+.logo {
+    margin-left: auto;
+    width: 100px;
+
+}
+.navbar li {
+  
+    margin-top: 50px;
+	display:  inline-block;
+}
+.navbar a {
+    color: rgb(250, 248, 246);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200px;
+    font-size: 20px;
+	text-decoration: none;
+
+
+}
+.navbar a:hover{
+	background: rgb(43, 12, 26);
+	color: rgb(247, 247, 247);
+	padding: 15px 10px 15px 10px;
+	
+}
+.navbar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background: rgba(82, 20, 54, 0.589);
+    
+    
+}
+
+.wrapper {
+    
+}
+.cover {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	width: fit-content;
+    background-repeat: repeat;;
+	opacity: 80%;
+
+	}
+.text-block {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(189, 101, 145);
+	background-color: rgba(0, 0, 0, 0.767);
+    font-weight: bold;
+	text-align: center;
+	margin-top: 180px;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif
+	color: rgba(247, 152, 199, 0.925);
+}
+.text p {
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(70, 10, 51);
+	text-align: center;
+	margin-top: 15px;
+	font-size: 27px;
+    font-weight: bold;
+
+}
+
+/* COMMUNITY PAGE */
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password],input[type=num], select[type=community], textarea[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=num]:focus, select[type=community]:focus,textarea[type=text]:focus 
+ {
+  background-color: #ddd;
+  outline: none;
+}
+h2 {
+	color: rgb(126, 55, 126);
+	
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #5f08458e;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+  background-color: #5f0845;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #e66317a9;
+}
+.cancelbtn:hover {
+	
+	background-color: #cc410afd;
+  }
+  .signupbtn {
+	  background-color: rgba(78, 10, 78, 0.589);
+  }
+  .signupbtn:hover {
+	  background-color: #5f0845;
+
+  }
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  margin-top: 100px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+h1 {
+    text-align: center;
+padding-top: 80px;
+font-size: 50px;
+color:rgba(82, 20, 54, 0.925)
+
+
+
+}
+
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+footer{
+    background: #222;
+    color: #fff;
+    padding: 60px 0;
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    color: rgb(224, 210, 220);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.items{
+    flex-basis: 20%;
+}
+.items .logo{
+    text-transform: capitalize;
+    font-size: 1.4em;
+    color: #cc1cb4da;
+    font-weight: bolder;
+}
+.items p{
+    margin: 1.2em 0;
+}
+.social{
+    display: flex;
+}
+.social a{
+    height: 30px;
+    width: 30px;
+    background: #383535;
+    border-radius: 5px;
+    margin:10px 5px;
+    text-align: center;
+}
+.social a i{
+    font-size: 1.3em;
+    line-height: 30px;
+}
+.items h3{
+    position: relative;
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+.items h3::after{
+    content:"";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    bottom: -4px;
+    left: 0;
+}
+hr{
+    opacity: .3;
+}
+footer .end{
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+@media (max-width:640px){
+    .items{
+    flex-basis: 80%;
+    margin: auto;
+}
+
+}

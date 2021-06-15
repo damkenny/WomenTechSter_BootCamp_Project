@@ -1,0 +1,364 @@
+body {
+	background-color: rgba(248, 93, 189, 0.185);
+   
+
+}
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    justify-content: space-evenly;
+    font-size: 0.7em;
+    margin-bottom: 1px;
+    
+
+}
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0 ;
+    
+    }
+}
+.main-nav, .logo {
+    align-content: ;
+}
+.logo {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+
+}
+.logo {
+    margin-left: auto;
+    width: 100px;
+
+}
+.navbar li {
+  
+    margin-top: 50px;
+	display:  inline-block;
+}
+.navbar a {
+    color: rgb(250, 248, 246);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200px;
+    font-size: 20px;
+	text-decoration: none;
+
+
+}
+.navbar a:hover{
+	background: rgb(43, 12, 26);
+	color: rgb(247, 247, 247);
+	padding: 15px 10px 15px 10px;
+	
+}
+.navbar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background: rgba(82, 20, 54, 0.589);
+    
+    
+}
+
+.wrapper {
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	width: fit-content;
+    background-repeat: repeat;
+	
+}
+.cover {
+
+	position: relative;
+	opacity: 80%;
+
+	}
+.wopower h1 {
+    text-align: center;
+padding-top: 100px;
+font-size: 50px;
+color:rgba(82, 20, 54, 0.925)
+
+}
+.about-container {
+
+    text-align: center;
+    font-size: 20px;
+    color:rgb(88, 30, 88);
+    text-decoration:underline;
+    
+}
+.about-content p {
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.about-content img {
+    width: 100%;
+    height: auto;
+}
+.project-container h2 {
+    text-align: center;
+    font-size: 30px;
+    color:rgb(88, 30, 88);
+    text-decoration-line: underline;
+}
+.column, img {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    height: auto;
+  }
+  .img{
+      width: 100%;
+  }
+  .card  {
+      background-color: rgba(128, 0, 128, 0.342);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px 10px 5px 10px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .container {
+    padding: 5px 16px 10px 10px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: flexbox;
+  }
+  h3 {
+      color: rgb(73, 9, 73);
+  }
+
+.h2 {
+     text-decoration-line: underline;
+    text-align: left;
+    font-size: 34px;
+        margin-top: -20px;
+
+}
+ h2 {
+  text-decoration-line: underline;
+  color: rgb(73, 9, 73);
+  font-size: 34px;
+}
+
+.center {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+/* footer */
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+footer{
+    background: #222;
+    color: #fff;
+    padding: 60px 0;
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    color: rgb(224, 210, 220);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.items{
+    flex-basis: 20%;
+}
+.items .logo{
+    text-transform: capitalize;
+    font-size: 1.4em;
+    color: #cc1cb4da;
+    font-weight: bolder;
+}
+.items p{
+    margin: 1.2em 0;
+}
+.social{
+    display: flex;
+}
+.social a{
+    height: 30px;
+    width: 30px;
+    background: #383535;
+    border-radius: 5px;
+    margin:10px 5px;
+    text-align: center;
+}
+.social a i{
+    font-size: 1.3em;
+    line-height: 30px;
+}
+.items h3{
+    position: relative;
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+.items h3::after{
+    content:"";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    bottom: -4px;
+    left: 0;
+}
+hr{
+    opacity: .3;
+}
+footer .end{
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+@media (max-width:640px){
+    .items{
+    flex-basis: 80%;
+    margin: auto;
+}
+
+}
+
+
+
+
+/* faq */
+.btn {
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--clr-black);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid var(--clr-black);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
+}
+.section {
+    padding: 5rem 0;
+  }
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+@media screen and (min-width: 992px) {
+    .section-center {
+      width: 95vw;
+    }
+  }
+  main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }*/
+  .title {
+    margin-top: 15vh;
+    margin-bottom: 4rem;
+  }
+  .title h2 {
+    color: var(--clr-gold);
+    font-family: "";
+    text-align: center;
+  }
+  .section-center {
+    max-width: var(--fixed-width);
+  }
+  .question {
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .question-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+  }
+  .question-title p {
+    margin-bottom: 0;
+    letter-spacing: var(--spacing);
+    color: var(--clr-grey-1);
+  }
+  .question-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: var(--clr-gold);
+    transition: var(--transition);
+  }
+  .question-btn:hover {
+    transform: rotate(90deg);
+  }
+  .question-text {
+    padding: 1rem 0 1.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .question-text p {
+    margin-bottom: 0;
+  }
+  /* hide text */
+.question-text {
+    display: none;
+  }
+  .show-text .question-text {
+    display: block;
+  }
+  .minus-icon {
+    display: none;
+  }
+  .show-text .minus-icon {
+    display: inline;
+  }
+  .show-text .plus-icon {
+    display: none;
+  }
+   
